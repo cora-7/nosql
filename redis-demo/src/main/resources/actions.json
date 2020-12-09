@@ -1,0 +1,54 @@
+{
+  "actions": [
+    {
+      "name": "ADD_USER",
+      "actionIndex": 1,
+      "describe": "人数增加",
+      "show": [
+        {
+          "counterName": "showUserCount"
+        }
+      ],
+      "action": [
+        {
+          "counterName": "addUser"
+        }
+        ]
+    },
+    {
+      "name": "DEL_USER",
+      "actionIndex": 2,
+      "describe": "人数减少",
+      "show": [
+        {
+          "counterName": "showUserCount"
+        }
+      ],
+      "action": [
+        {
+          "counterName": "delUser"
+        }
+      ]
+    },
+    {
+      "name": "SHOW_USER_COUNT",
+      "actionIndex": "3",
+      "describe": "显示总人数",
+      "show": [
+        {
+          "counterName": "showUserCount"
+        }
+      ]
+    },
+    {
+      "name": "SHOW_USER_FREQ",
+      "actionIndex": "4",
+      "describe": "显示人数变化",
+      "show": [
+        {
+          "counterName": "showUserFreq"
+        }
+      ]
+    }
+  ]
+}
